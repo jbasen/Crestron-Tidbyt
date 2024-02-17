@@ -1,7 +1,7 @@
 load("render.star", "render")
 load("http.star", "http")
 
-URL = "http://10.10.0.137:9000/"
+URL = "http://[Crestron Processor IP Address]:[Port for Communications]/"
 
 def main():
     rep = http.get(URL)
